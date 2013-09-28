@@ -40,8 +40,8 @@ C0 J5 C0:161 C2:112 C1:26, J11 C0:154 C1:27 C2:108, J2 C0:128 C2:68 C1:18, J4 C0
 Run your program on this input file which contains 2000 circuits and 12000 jugglers. Send us both your code and the output file to the following e-mail address: the sum of the names of the jugglers (taking off the leading letter J) that are assigned to circuit C1970 @yodle.com. So for example if the jugglers assigned to circuit C1970 were J1,J2,J3,J4,J5 and J6 you would send your solution to 21@yodle.com
 
 Tips:
-1: Pay attention to the juggle whose queue is empty. these juggles will be put into circuits later and to full the non-full circuits
-
+1. Pay attention to the juggle whose queue is empty. these juggles will be put into circuits later and to full the non-full circuits
+ 
 2. Introduce what does this test mean.The test asks you to assign juggle to circuits. 
     
 (1)It will first assign juggle to the circuits where he or she interested in most. 
