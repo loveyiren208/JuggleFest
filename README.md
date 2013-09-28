@@ -41,8 +41,13 @@ Run your program on this input file which contains 2000 circuits and 12000 juggl
 
 Tips:
 1: Pay attention to the juggle whose queue is empty. these juggles will be put into circuits later and to full the non-full circuits
+
 2. Introduce what does this test mean.The test asks you to assign juggle to circuits. 
-    (1)It will first assign juggle to the circuits where he or she interested in most. 
-    (2)If this circuit is full, compare the smallest value(I am using priority queue) with this juggle. select the larger value to put it into this circuit. the smaller one has to choose the next interested circuit(I use queue to store a list, here I use poll() to delete this circuit)
-    (3)If one juggle is unlucky. His interested queue is empty. Thus any other circuit is ok for him. I just put these juggle into LEFT array. When others done, I will add these juggle to the non-full circuits
+    
+(1)It will first assign juggle to the circuits where he or she interested in most. 
+    
+(2)If this circuit is full, compare the smallest value(I am using priority queue) with this juggle. select the larger value to put it into this circuit. the smaller one has to choose the next interested circuit(I use queue to store a list, here I use poll() to delete this circuit)
+    
+(3)If one juggle is unlucky. His interested queue is empty. Thus any other circuit is ok for him. I just put these juggle into LEFT array. When others done, I will add these juggle to the non-full circuits
+
 3. I use the priority queue, and write comparator, which decides the order of the queue. But pay attention to the LEFT juggle, the compare() method of this is different. Check it first and it always return -1;
